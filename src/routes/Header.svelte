@@ -16,11 +16,13 @@
         flex-direction: row;
         background-color: #eaeaea;
         padding: 0;
+        align-items: center;
     }
 
 
     .brand-text {
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin: 0 0.5rem;
     }
 </style>
