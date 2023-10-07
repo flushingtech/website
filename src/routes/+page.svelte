@@ -1,3 +1,11 @@
+<h1>Flushing Tech Group</h1>
+<p>A bunch of cool people doing cool tech stuff on a cool framework called Svelte.</p>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<style>
+    h1 {
+        width: 100%;
+    }
+    p {
+        width: 100%;
+    }
+</style>
