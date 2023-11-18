@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    color: yellow;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
