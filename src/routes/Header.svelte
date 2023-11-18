@@ -1,6 +1,7 @@
 <script>
     import Logo from './Logo.svelte';
     import Search from './Search.svelte';
+    import LandingImage from './LandingImage.svelte';
 </script>
 
 <div class="navigation">
