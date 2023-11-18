@@ -1,6 +1,7 @@
 <script>
     import '../app.css';
     import Header from './Header.svelte';
+    import Profolio from './Profolio.svelte';
 </script>
 
 <Header></Header>
@@ -8,6 +9,7 @@
 <div class="container">
     <slot />
 </div>
+<Profolio></Profolio>
 
 <style>
     .container {
