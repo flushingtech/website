@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-    color: yellow;
-}
+/* h1 {
+    color: rgb(214, 214, 76);
+} */
 
 body {
     margin: 0; 

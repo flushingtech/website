@@ -23,11 +23,14 @@
 
 <div> 
     <h1 class="text-green-700 text-6xl grow">{title}</h1>
-    <div class="flex flex-wrap ">
+    <div class="flex flex-wrap justify-around">
         {#each events as event}
-            <div class="w-1/3 shadow-lg bg-orange-700 rounded-2xl px-5 mx-3">
-                <p class="capitalize md:uppercase underline decoration-solid">{event.title}</p>
-                {event.content} - {event.date}
+            <div class="w-1/3 px-5 flex">
+                <div class="bg-red-500 text-white grow shadow-lg rounded-2xl px-4 py-4 flex flex-wrap">
+                    <div class="capitalize md:uppercaA bunch of cool people doing cool tech stuff on a cool framework called Svelte.se underline decoration-solid w-full">{event.title}</div>
+                    <div class="italic">{event.content}</div>
+                    <div class="flex items-end">{event.date}</div>
+                </div>
             </div>         
         {/each}
     </div>
