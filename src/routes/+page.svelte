@@ -2,15 +2,9 @@
     import Event from './Event.svelte'
 </script>
 
-<h1>Flushing Tech Group</h1>
-<p>A bunch of cool people doing cool tech stuff on a cool framework called Svelte.</p>
-<Event></Event>
+<div class="flex justify-center">
 
-<style>
-    h1 {
-        width: 100%;
-    }
-    p {
-        width: 100%;
-    }
-</style>
+    <p>Flushing Tech Group</p>
+    <p>A bunch of cool people doing cool tech stuff on a cool framework called Svelte.</p>
+</div>
+    
