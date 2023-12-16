@@ -1,11 +1,10 @@
-<h1>Flushing Tech Group</h1>
-<p>A bunch of cool people doing cool tech stuff on a cool framework called Svelte.</p>
+<script>
+    import Event from './Event.svelte'
+</script>
 
-<style>
-    h1 {
-        width: 100%;
-    }
-    p {
-        width: 100%;
-    }
-</style>
+<div class="flex justify-center">
+
+    <p>Flushing Tech Group</p>
+    <p>A bunch of cool people doing cool tech stuff on a cool framework called Svelte.</p>
+</div>
+    
