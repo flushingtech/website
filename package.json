@@ -23,6 +23,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"google-auth-library": "^9.4.1",
+		"googleapis": "^129.0.0",
 		"semver": "^7.5.4"
 	}
 }
