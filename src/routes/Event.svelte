@@ -41,7 +41,7 @@
     </div>
     
     <div class="flex flex-wrap justify-around">
-        {#each events as event}
+        <!-- {#each events as event}
             <div class="w-1/3 px-5 flex">
                 <div class="bg-red-500 text-white grow shadow-lg rounded-2xl px-4 py-4 flex flex-wrap">
                     <div class="capitalize md:uppercase decoration-solid w-full rounded-full bg-yellow-500 p-4">{event.title}</div>
@@ -49,10 +49,17 @@
                     <div class="flex items-end">{event.date}</div>
                 </div>
             </div>         
+        {/each} -->
+        {#each CalendarData as event}
+            <div class="w-1/3 my-5 px-5 flex">
+                <div class="bg-red-500 text-white grow shadow-lg rounded-2xl px-4 py-4 flex flex-wrap">
+                    <div class="capitalize md:uppercase decoration-solid w-full rounded-full bg-yellow-500 p-4">{event.summary}</div>
+                    <div class="italic">{event.description}</div>
+                    <div class="flex items-end">{event.location}</div>
+                    <div class="flex items-end">{event.start.dateTime}</div>
+                </div>
+            </div>         
         {/each}
-    </div>
-    <div>
-        
     </div>
 </div>
 
