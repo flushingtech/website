@@ -4,3 +4,10 @@
 <div class="flex justify-center">
 	<img src={flushingGlobe}/>
 </div>
+
+<style>
+img{
+	width: 400px;
+}
+
+</style>
