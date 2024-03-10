@@ -8,8 +8,7 @@
 </script>
 
 <Header></Header>
-<Page></Page>
-<LandingImage></LandingImage>
+<!-- <Page></Page> -->
 <Event></Event>
 
 <div class="container">

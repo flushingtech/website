@@ -14,37 +14,51 @@
     <Search></Search>
 </div> -->
 
-<div class = 'nav'>
-    <h1 class="brand-text">Flushing Tech's Official Hackathon</h1>
+<div class = 'top'>
+    <div class = "title">
+        <h1>Flushing Tech's Hackathon Group</h1>
+
+    </div>
+    
     <LandingImage></LandingImage>
 </div>
+<div class= "description">
+    Join our freeform, self-organized hackathons where creativity knows no bounds. Whether you're a seasoned pro, aspiring entrepeneur, or passionate hobbyist, our events are tailor-made for tech enthusiasts like you. Bring a laptop, your brightest ideas, and ongoing projects - lets build something together! 
+</div>
+
+
 
 <style>
-    /* .navigation {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        display: flex;
-        flex-direction: row;
-        background-color: #8f6232;
-        padding: 0;
-        align-items: center;
-        justify-content: space-between;
-    } */
 
-
-    .brand-text {
+    .title {
         font-weight: bold;
         font-size: 3.5rem;
-        margin: 0 0.5rem;
+        margin-bottom: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    .nav{
+    .top{
         display: flex;
-        justify-content: space-between;
-        border: 2px;
-        border-color: black;
+        justify-content: space-around;
+        /* border-width: 2px; */
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+
     }
 
-    .intro{
-        display: flex;
+    .description{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        color:rgba(255, 255, 255, 0.85);
+        /* border-width: 2px; */
     }
+
+
 </style>
