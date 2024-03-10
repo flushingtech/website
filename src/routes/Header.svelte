@@ -37,6 +37,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color:rgba(255, 255, 255, 0.925);
     }
 
     .top{
