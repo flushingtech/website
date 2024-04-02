@@ -1,8 +1,8 @@
 <script>
-	import hackathon from './images/hackathon.png';
+	import working from './images/working.png';
 </script>
 <div class="flex justify-center">
-	<img src={hackathon}/>
+	<img src={working}/>
 </div>
 
 <style>
