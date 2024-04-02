@@ -16,7 +16,7 @@
 
 <div class = 'top'>
     <div class = "title">
-        <h1>Flushing Tech's Hackathon Group</h1>
+        <Logo></Logo>
 
     </div>
     
