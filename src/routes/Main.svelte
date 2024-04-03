@@ -56,6 +56,7 @@
         margin-right: 2em;
         font-size: 1.2em;  
         display: flex;
+        justify-content: center;   
     }
 
 
