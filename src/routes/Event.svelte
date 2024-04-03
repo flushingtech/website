@@ -36,9 +36,6 @@
 
 
 <div> 
-    <div class="flex justify-center">
-        <h1 class="text-green-700 text-6xl">{title}</h1>
-    </div>
     
     <div class="flex flex-wrap justify-around">
         <!-- {#each events as event}

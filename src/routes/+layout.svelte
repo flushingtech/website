@@ -10,9 +10,10 @@
 <Main></Main>
 <Event></Event>
 
-<div class="container">
+<!-- <div class="container">
     <slot />
-</div>
+</div> -->
+
 <Profolio></Profolio>
 
 <style>

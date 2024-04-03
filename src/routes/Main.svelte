@@ -19,9 +19,6 @@
 
 </div>
 
-<!-- <div class= "description">
-    Join our freeform, self-organized hackathons where creativity knows no bounds. Whether you're a seasoned pro, aspiring entrepeneur, or passionate hobbyist, our events are tailor-made for tech enthusiasts like you. Bring a laptop, your brightest ideas, and ongoing projects - lets build something together! 
-</div> -->
 
 <style>
 

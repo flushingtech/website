@@ -2,14 +2,15 @@
 	import logo from './images/logo.png';
 </script>
 
-<div class="flex justify-center">
+<div class = "logo">
 	<img src={logo}/>
 </div>
 
 <style>
-img{
-    width: 400px;
-	background-color: #040105;
-}
+	.logo{
+		max-width: 400px;
+		width: 100%;
+
+	}
 
 </style>

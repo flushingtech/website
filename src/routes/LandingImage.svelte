@@ -2,13 +2,17 @@
 	import pic1 from './images/Option5.png';
 	import pic2 from './images/Option4.png'
 </script>
-<div class="flex justify-center">
+<div class= "landing-img">
 	<img src={pic1}/>
 	<img class="image-2" src={pic2}/>
 	
 </div>
 
 <style>
+	.landing-img{
+		display:flex;
+		width:65%;
+	}
 img{
 	/* width: 400px;
 	border-radius: 2px;
