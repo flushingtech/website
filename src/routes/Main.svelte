@@ -1,25 +1,17 @@
 <script>
     import Logo from './Logo.svelte';
-    import Search from './Search.svelte';
     import LandingImage from './LandingImage.svelte';
 </script>
 
-<!-- <div class="navigation">
-    <Logo></Logo>
-    <div class = "center-nav">
-        <div>About</div>
-        <div>Projects</div>
-        <div>Members</div>
-    </div>
-    <Search></Search>
-</div> -->
+
+
 
 <div class = 'top'>
     <div class = "title">
         <Logo></Logo>
 
     </div>
-    
+
     <LandingImage></LandingImage>
 </div>
 <div class= "description">
@@ -38,6 +30,7 @@
         justify-content: center;
         align-items: center;
         color:rgba(255, 255, 255, 0.925);
+        
     }
 
     .top{

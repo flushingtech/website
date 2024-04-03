@@ -1,14 +1,13 @@
 <script>
     import '../app.css';
-    import Page from './+page.svelte';
     import Event from './Event.svelte';
-    import Header from './Header.svelte';
+    import Main from './Main.svelte';
     import Profolio from './Profolio.svelte';
-    import LandingImage from './LandingImage.svelte';
+    import Nav from './Nav.svelte'
 </script>
 
-<Header></Header>
-<!-- <Page></Page> -->
+<Nav></Nav>
+<Main></Main>
 <Event></Event>
 
 <div class="container">
