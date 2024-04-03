@@ -9,7 +9,7 @@
 <style>
 img{
     width: 400px;
-	
+	background-color: #040105;
 }
 
 </style>
