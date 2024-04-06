@@ -25,6 +25,7 @@
     <button on:click={prev} class="carousel-control left-0">&#8249;</button>
     <img src={projects[currentIndex].image_URL} alt={projects[currentIndex].title} class="carousel-image">
     <button on:click={next} class="carousel-control right-0">&#8250;</button>
+    <div class="carousel-title">{projects[currentIndex].title}</div>
   </div>
 </div>
 
@@ -40,6 +41,7 @@
     overflow: hidden;
     border: 2px solid #000; /* Optional: Add a border around the carousel */
     border-radius: 8px; /* Optional: Add border radius for a rounded look */
+    text-align: center; /* Center align carousel content */
   }
 
   .carousel-image {
@@ -66,5 +68,12 @@
 
   .carousel-control.right-0 {
     right: 0;
+  }
+
+  .carousel-title {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* Set title color to white */
   }
 </style>
