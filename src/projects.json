@@ -1,0 +1,42 @@
+[
+    {
+        "title":"Title 1",
+        "image_URL": "path",
+        "description":"This describes Project 1. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"githubURL or deployed site",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+
+    },
+    {
+        "title":"Title 2",
+        "image_URL": "path",
+        "description":"Project 2 decscirption. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"githubURL or deployed site",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+    },
+
+    {
+        "title":"Title 3",
+        "image_URL": "path",
+        "description":"Proj 3 descript We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"githubURL or deployed site",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+    },
+
+    {
+        "title":"Title 4",
+        "image_URL": "path",
+        "description":"Proj 4 ddescription. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"githubURL or deployed site",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+    },
+
+    {
+        "title":"Title 5",
+        "image_URL": "path",
+        "description":"Project 5 desciption. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"githubURL or deployed site",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+    }
+
+]
