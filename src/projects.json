@@ -1,7 +1,7 @@
 [
     {
         "title":"Title 1",
-        "image_URL": "https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg",
+        "image_URL": "https://images.ctfassets.net/1aemqu6a6t65/6yhRUmlUlQIu7R7vpwjY8x/fdb889151c8d0af07e7876f0a9dde49a/Flushing-Queens-NYC-Photo-Julienne-Schaer.jpg",
         "description":"This describes Project 1. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
         "project_link":"githubURL or deployed site",
         "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
@@ -9,7 +9,7 @@
     },
     {
         "title":"Title 2",
-        "image_URL": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Crystal_Project_computer.png",
+        "image_URL": "https://images.ctfassets.net/1aemqu6a6t65/3qt6vvWW8M66ESsnfhkbYK/398044e11c0c7c7a0d3636eba992ae1d/35-St-Astoria-Queens-NYC-Scott-Rossi.jpg",
         "description":"Project 2 decscirption. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
         "project_link":"githubURL or deployed site",
         "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
@@ -17,7 +17,7 @@
 
     {
         "title":"Title 3",
-        "image_URL": "https://cdn.britannica.com/77/170477-050-1C747EE3/Laptop-computer.jpg",
+        "image_URL": "https://images.ctfassets.net/1aemqu6a6t65/4RdizARCMDamkAGUZK8cfL/748af15a6813c5e168bdbbc162f5c020/Long_Island_CIty-Queens-NYC-Photo-Michelle-Rick.jpg",
         "description":"Proj 3 descript We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
         "project_link":"githubURL or deployed site",
         "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
