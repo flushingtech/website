@@ -4,11 +4,12 @@
     import Main from './Main.svelte';
     import Profolio from './Profolio.svelte';
     import Nav from './Nav.svelte'
+    import Carousel from '../components/Carousel.svelte';
 </script>
 
 <Nav></Nav>
 <Main></Main>
-<Event></Event>
+<Carousel></Carousel>
 
 <!-- <div class="container">
     <slot />
