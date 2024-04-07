@@ -29,3 +29,10 @@
     </div>
   </div>
 </div>
+
+<!-- when icon is clicked (active state) it will get slightly darker -->
+<style>
+  .carousel-control span.material-symbols-outlined:active {
+    filter: brightness(70%);
+  }
+</style>
