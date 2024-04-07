@@ -1,31 +1,25 @@
 <script>
   let currentIndex = 0;
-  let projects = [];
 
   // Fetch project data from projects.json on component mount
   import projectsData from '../projects.json';
 
-  // Map the projectsData to include image URLs in the projects array
-  projects = projectsData.map(project => ({
-    ...project,
-    image_URL: `${project.image_URL}` // Update path to match your image directory
-  }));
 
   function next() {
-    currentIndex = (currentIndex + 1) % projects.length;
+    currentIndex === projectsData.length-1 ? currentIndex = 0 : currentIndex+=1
   }
 
   function prev() {
-    currentIndex = (currentIndex - 1 + projects.length) % projects.length;
+    currentIndex === 0 ? currentIndex = projectsData.length-1 : currentIndex-=1
   }
 </script>
 
 <div class="carousel-container">
   <div class="carousel">
     <button on:click={prev} class="carousel-control left-0">&#8249;</button>
-    <img src={projects[currentIndex].image_URL} alt={projects[currentIndex].title} class="carousel-image">
+    <img src={projectsData[currentIndex].image_URL} alt={projectsData[currentIndex].title} class="carousel-image">
     <button on:click={next} class="carousel-control right-0">&#8250;</button>
-    <div class="carousel-title">{projects[currentIndex].title}</div>
+    <div class="carousel-title">{projectsData[currentIndex].title}</div>
   </div>
 </div>
 
