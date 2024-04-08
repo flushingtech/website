@@ -13,6 +13,10 @@
   }
 </script>
 
+<div class="carousel-heading text-4xl" style="font-family: 'Bungee', sans-serif;">
+  Check out our work
+</div>
+
 <div class="carousel-container relative flex justify-center my-4">
   <div class="carousel relative max-w-screen-md">
     <div class="flex items-center justify-center"> 
@@ -24,7 +28,7 @@
         <span class="material-symbols-outlined text-7xl">chevron_right</span>
       </button>
     </div>
-    <div class="carousel-title text-center mt-2"> 
+    <div class="project-title text-center mt-2 text-4xl"> 
       {projectsData[currentIndex].title}
     </div>
   </div>
