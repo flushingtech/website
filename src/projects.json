@@ -36,7 +36,7 @@
         "image_URL": "path",
         "description":"Project 5 desciption. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
         "project_link":"githubURL or deployed site",
-        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+        "team": ["Anne Hathaway", "Denzel Washington", "Justin JB Bieber"]
     }
 
 ]
