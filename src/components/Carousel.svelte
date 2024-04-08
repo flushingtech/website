@@ -13,8 +13,8 @@
   }
 </script>
 
-<div class="carousel-heading text-4xl" style="font-family: 'Bungee', sans-serif;">
-  Check out our work
+<div class="carousel-heading text-5xl mb-6 text-center bg-black bg-opacity-80" style="font-family: 'Bungee Shade', sans-serif; color:#baf553ff">
+  Our Work
 </div>
 
 <div class="carousel-container relative flex justify-center my-4">

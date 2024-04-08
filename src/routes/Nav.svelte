@@ -17,7 +17,7 @@
         font-weight: 200;
         font-style: normal;
         font-size: 1.8em;
-        color:#baf553a3
+        color:#baf553ff
     }
 
 
