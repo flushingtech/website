@@ -3,11 +3,13 @@
     import Main from './Main.svelte';
     import Nav from './Nav.svelte'
     import Carousel from '../components/Carousel.svelte';
+    import Events from '../components/Events.svelte'
 </script>
 
 <Nav></Nav>
 <Main></Main>
 <Carousel></Carousel>
+<Events></Events>
 
 
 <style>

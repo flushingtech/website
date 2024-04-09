@@ -13,7 +13,7 @@
   }
 </script>
 
-<div class="carousel-heading text-5xl mb-6 text-center bg-black bg-opacity-80" style="font-family: 'Bungee Shade', sans-serif; color:#baf553ff">
+<div class="carousel-heading text-5xl mb-6 text-center" style="font-family: 'Bungee Shade', sans-serif; color:#baf553ff; background-color: #040105">
   Our Work
 </div>
 
@@ -38,7 +38,7 @@
       </button> 
     </div>
 
-    <div class="caption col-start-2 col-span-3 row-start-4">
+    <div class="caption col-start-2 col-span-3 row-start-4" style="background-color: #040105;">
       <div class="title text-2xl">
         {projectsData[currentIndex].title}
       </div>
