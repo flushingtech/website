@@ -1,24 +1,13 @@
-<div class = "nav">
-    <div class="top-left-nav">Flushing Tech</div>
+<script>
+</script>
 
+<div class="nav m-4 flex justify-between items-center">
+    <div class="top-left-nav text-3xl font-thin" style="font-family: 'Bungee Shade', sans-serif; color: #baf553ff;">Flushing Tech</div>
+    <div class="redirect flex justify-between w-1/4 text-lg mr-4">
+
+        <div>About Us</div>
+        <div>Our Work</div>
+        <div>Join Us</div>
+    </div>
 </div>
-
-<style>
-
-    .nav{
-        margin-top:1em;
-        margin-left:1em;
-        margin-right: 1em;
-        margin-bottom: 1em;
-    }
-
-    .top-left-nav{
-        font-family: "Bungee Shade", sans-serif;
-        font-weight: 200;
-        font-style: normal;
-        font-size: 1.8em;
-        color:#baf553ff
-    }
-
-
-</style>
+  
