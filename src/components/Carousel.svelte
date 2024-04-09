@@ -42,7 +42,7 @@
       <div class="title text-2xl">
         {projectsData[currentIndex].title}
       </div>
-      <div class="description text-lg">
+      <div class="description text-lg mb-6">
         {projectsData[currentIndex].description}
       </div>
     </div>
