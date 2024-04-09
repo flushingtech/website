@@ -18,31 +18,31 @@
 </div>
 
 
-  <div class="wrapper">
+  <div class="grid grid-cols-5 gap-4">
 
-    <div class="left">
+    <div class="left col-start-1 col-span-1 row-start-2 row-span-1 justify-self-center">
       <button on:click={prev} class="carousel-control text-white hover:text-green-500 rounded-full">
         <span class="material-symbols-outlined text-8xl">chevron_left</span>
       </button>
     </div>
 
-    <div class="box2">
-      <a>
+    <div class="image col-start-2 col-span-3 row-start-1 row-span-3">
+      <a href = {projectsData[currentIndex].project_link} target="_blank">
         <img class="carousel-image " src={projectsData[currentIndex].image_URL} alt={projectsData[currentIndex].title} >
       </a>
     </div>
 
-    <div class="right">
+    <div class="right col-start-5 col-span-1 row-start-2 row-span-1 justify-self-center">
       <button on:click={next} class="carousel-control text-white hover:text-green-500 rounded-full">
         <span class="material-symbols-outlined text-8xl">chevron_right</span>
       </button> 
     </div>
 
-    <div class="box4">
-      <div class="title">
+    <div class="caption col-start-2 col-span-3 row-start-4">
+      <div class="title text-2xl">
         {projectsData[currentIndex].title}
       </div>
-      <div class="description">
+      <div class="description text-lg">
         {projectsData[currentIndex].description}
       </div>
     </div>
@@ -52,44 +52,7 @@
   
 <!-- when icon is clicked (active state) it will get slightly darker -->
 <style>
-  /* .carousel-control span.material-symbols-outlined:active {
+  .carousel-control span.material-symbols-outlined:active {
     filter: brightness(70%);
-  } */
-
-  .wrapper {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: auto;
-}
-
-.left {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  justify-self: center;
-}
-
-.box2 {
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 4;
-}
-
-.right{
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  justify-self: center;
-
-}
-.box4{
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
+  }
 </style>
