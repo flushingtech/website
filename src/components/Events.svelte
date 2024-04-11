@@ -3,9 +3,18 @@
     background: linear-gradient(to right, #7b5aff, #8566ff);
   }
 
+  .purple-gradient:hover {
+    background: linear-gradient(to right, #6e51ff, #7b5aff);
+  }
+
+  .purple-gradient:active {
+    background: linear-gradient(to right, #8566ff, rgb(227, 76, 235));
+  }
+
   .grid-container {
     margin: 2em; /* Adjust the margin as needed */
   }
+
 </style>
 
 <div class="heading flex justify-end mr-12 text-4xl" style="font-family: 'Bungee Shade'; color:#baf553ff; background-color: #040105">
