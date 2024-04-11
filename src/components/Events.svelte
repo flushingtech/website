@@ -1,34 +1,40 @@
-<script>
-</script>
+<style>
+  .purple-gradient {
+    background: linear-gradient(to right, #7b5aff, #8566ff);
+  }
+
+  .grid-container {
+    margin: 2em; /* Adjust the margin as needed */
+  }
+</style>
 
 <div class="heading flex justify-end mr-12 text-4xl" style="font-family: 'Bungee Shade'; color:#baf553ff; background-color: #040105">
     Join Us
 </div>
 
 <div class="join-us-section my-4 mx-8">
+  <div class="grid-container">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-      <div class="grid-item bg-purple-500 p-4 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">Option 1</h3>
-        <p>Details about option 1</p>
+      <div class="grid-item bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <h3 class="text-lg font-bold mb-2 text-center text-purple-400" style="font-family: 'Bungee'">Hackathon</h3>
+        <p class="text-sm text-center mb-4 text-gray-300"> Code with us!</p>
+        <a href="#" class="block purple-gradient text-white py-2 px-4 rounded-lg text-center font-semibold transition duration-300" style="font-family: 'Bungee';">Join here</a>
       </div>
-      <div class="grid-item bg-purple-500 p-4 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">Option 2</h3>
-        <p>Details about option 2</p>
+      <div class="grid-item bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <h3 class="text-lg font-bold mb-2 text-center  text-purple-400" style="font-family: 'Bungee'"> Office Hours</h3>
+        <p class="text-sm text-center mb-4 text-gray-300">Bring your questions!</p>
+        <a href="#" class="block purple-gradient text-white py-2 px-4 rounded-lg text-center font-semibold transition duration-300" style="font-family: 'Bungee';">Join here</a>
       </div>
-      <div class="grid-item bg-purple-500 p-4 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">Option 3</h3>
-        <p>Details about option 3</p>
+      <div class="grid-item bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <h3 class="text-lg font-bold mb-2 text-center  text-purple-400" style="font-family: 'Bungee'">Happy Hour</h3>
+        <p class="text-sm text-center mb-4 text-gray-300">Lets get to know each other!</p>
+        <a href="#" class="block purple-gradient text-white py-2 px-4 rounded-lg text-center font-semibold transition duration-300" style="font-family: 'Bungee';">Join here</a>
       </div>
-      <div class="grid-item bg-purple-500 p-4 rounded-lg">
-        <h3 class="text-lg font-semibold mb-2">Option 4</h3>
-        <p>Details about option 4</p>
+      <div class="grid-item bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition duration-300">
+        <h3 class="text-lg font-bold mb-2 text-center text-purple-400" style="font-family: 'Bungee'">Tech Talk</h3>
+        <p class="text-sm text-center mb-4 text-gray-300">Learn with us!</p>
+        <a href="#" class="block purple-gradient text-white py-2 px-4 rounded-lg text-center font-semibold transition duration-300" style="font-family: 'Bungee';">Join here</a>
       </div>
     </div>
   </div>
-  
-  <style>
-    .grid-item {
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-  </style>
-  
+</div>
