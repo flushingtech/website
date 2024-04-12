@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* h1 {
+    color: rgb(214, 214, 76);
+} */
+
+body {
+    margin: 0; 
+    padding: 0;
+    color: white;
+    background-image: url('./routes/images/dots3.png');
+    font-family: Montserrat, Roboto, Lato, sans-serif ;
+    font-weight: 100;
+
+}

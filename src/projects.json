@@ -1,0 +1,42 @@
+[
+    {
+        "title":"Flushing",
+        "image_URL": "https://images.ctfassets.net/1aemqu6a6t65/6yhRUmlUlQIu7R7vpwjY8x/fdb889151c8d0af07e7876f0a9dde49a/Flushing-Queens-NYC-Photo-Julienne-Schaer.jpg",
+        "description":"This describes Project 1. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"https://github.com/flushingtech/website",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+
+    },
+    {
+        "title":"Astoria",
+        "image_URL": "https://images.ctfassets.net/1aemqu6a6t65/3qt6vvWW8M66ESsnfhkbYK/398044e11c0c7c7a0d3636eba992ae1d/35-St-Astoria-Queens-NYC-Scott-Rossi.jpg",
+        "description":"Project 2 decscirption. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"https://github.com/flushingtech/website",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+    },
+
+    {
+        "title":"Long Island City",
+        "image_URL": "https://images.ctfassets.net/1aemqu6a6t65/4RdizARCMDamkAGUZK8cfL/748af15a6813c5e168bdbbc162f5c020/Long_Island_CIty-Queens-NYC-Photo-Michelle-Rick.jpg",
+        "description":"Proj 3 descript We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"https://github.com/flushingtech/website",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+    },
+
+    {
+        "title":"Forest Hills",
+        "image_URL": "https://upload.wikimedia.org/wikipedia/commons/6/65/Forest_Hills_%28March_2018%29.jpg",
+        "description":"Proj 4 ddescription. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"https://github.com/flushingtech/website",
+        "team": ["Anne Hathaway","Denzel Washington","Justin JB Bieber"]
+    },
+
+    {
+        "title":"Title 5",
+        "image_URL": "path",
+        "description":"Project 5 desciption. We built something that yadda yadda blah blah blah to blah blah bloobedy blah blah blah.",
+        "project_link":"https://github.com/flushingtech/website",
+        "team": ["Anne Hathaway", "Denzel Washington", "Justin JB Bieber"]
+    }
+
+]
