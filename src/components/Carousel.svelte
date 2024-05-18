@@ -34,7 +34,7 @@
 
     <div class="right col-start-5 col-span-1 row-start-2 row-span-1 justify-self-center">
       <button on:click={next} class="carousel-control text-white hover:text-green-500 rounded-full">
-        <span class="material-symbols-outlined text-8xl">chevron_right</span>
+        <span class="material-symbols-outlined text-8xl" style="font-size: 6rem !important">chevron_right</span>
       </button> 
     </div>
 
