@@ -4,6 +4,10 @@
   // Fetch project data from projects.json on component mount
   import projectsData from '../projects.json';
 
+  setInterval( function () {  
+    next();
+  }, 10000)
+
   function next() {
     currentIndex === projectsData.length - 1 ? currentIndex = 0 : currentIndex += 1
   }
@@ -22,7 +26,7 @@
 
     <div class="left col-start-1 col-span-1 row-start-2 row-span-1 justify-self-center">
       <button on:click={prev} class="carousel-control text-white hover:text-green-500 rounded-full">
-        <span class="material-symbols-outlined text-8xl">chevron_left</span>
+        <span class="material-symbols-outlined text-8xl" style="font-size: 6rem !important">chevron_left</span>
       </button>
     </div>
 
