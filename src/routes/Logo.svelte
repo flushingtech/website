@@ -3,7 +3,7 @@
 </script>
 
 <div class = "logo">
-	<img src={logo}/>
+	<img src={logo}  alt="Flushing Tech Logo" />
 </div>
 
 <style>
