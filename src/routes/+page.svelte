@@ -1,7 +1,7 @@
 <script>
     import '../app.css';
-    import Main from './Main.svelte';
-    import Nav from './Nav.svelte'
+    import Main from '../components/Main.svelte';
+    import Nav from '../components/Nav.svelte'
     import Carousel from '../components/Carousel.svelte';
     import Events from '../components/Events.svelte'
 </script>

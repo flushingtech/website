@@ -25,7 +25,7 @@
     }
 
     .about-us-divider {
-        background-image: url('./images/about.png');
+        background-image: url('../routes/images/about.png');
         min-height: 10em; 
         background-position: center;
         padding: 1em; 

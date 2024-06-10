@@ -1,6 +1,6 @@
 <script>
-	import pic1 from './images/Option5.png';
-	import pic2 from './images/Option4.png'
+	import pic1 from '../routes/images/Option5.png';
+	import pic2 from '../routes/images/Option4.png'
 </script>
 <div class= "landing-img-container">
 	<img src={pic1} alt="graphic art depicting man using laptop and working on a mobile application."/>
