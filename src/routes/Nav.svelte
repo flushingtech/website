@@ -1,6 +1,8 @@
 <script>
 </script>
 
+<!-- consider adding skip navigation link  -->
+
 <nav class="nav m-4" >
     <ul class="flex justify-between items-center list-none">
         <li>

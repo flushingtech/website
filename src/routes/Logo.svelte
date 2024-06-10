@@ -2,9 +2,7 @@
 	import logo from './images/logo.png';
 </script>
 
-<div class = "logo">
-	<img src={logo}  alt="Flushing Tech Logo" />
-</div>
+<img src={logo} class="logo" alt="Flushing Tech Logo" />
 
 <style>
 	.logo{
