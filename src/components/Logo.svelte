@@ -1,5 +1,5 @@
 <script>
-	import logo from '../routes/images/logo.png';
+	import logo from '../images/logo.png';
 </script>
 
 <img src={logo} class="logo" alt="Flushing Tech Logo" />
